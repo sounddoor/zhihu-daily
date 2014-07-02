@@ -4,10 +4,11 @@
 #如何使用？
     
 安装    
+```php    
     #git clone git@github.com:ttihgiesr/zhihu-daily.git
     #cd zhihu-daily
     #git submodule update --init --recursive
-
+```
 修改zhihu-daily.php头部的配置
 ```php
     define( 'MAIL_HOST', 'mail server');
@@ -20,5 +21,6 @@
 可以放到服务器上，用cron每天定时push知乎日报新的内容到你的kindle
 
 运行
-
+```php
     #/path/bin/php zhihu-daily.php
+```
